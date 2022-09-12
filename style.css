@@ -30,6 +30,22 @@ ul li:hover{
     color: white;
 }
 
+#exp ul#work-desc li{
+    list-style-type: square;
+    box-shadow: none;
+    border: none;
+    margin: 0;
+    padding: 0.2rem;
+}
+
+#exp ul#work-desc2 li{
+    list-style-type: square;
+    box-shadow: none;
+    border: none;
+    margin: 0;
+    padding: 0.2rem;
+}
+
 #navbar{
     display: flex;
     flex-direction: row;
