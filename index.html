@@ -1,371 +1,648 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Sania Sinha — selected projects and experience in mathematics, software engineering, and artificial intelligence."
+    />
+    <meta name="theme-color" content="#111310" />
+    <meta property="og:title" content="Sania Sinha — Math & AI" />
+    <meta
+      property="og:description"
+      content="Selected work in AI, software engineering, and human-centered technology."
+    />
+    <meta property="og:type" content="website" />
+    <title>Sania Sinha — Math & AI</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
-    <title>Sania Sinha</title>
-</head>
-<body>
-    <div class="nav-item">
-        <button id="nav-btn">☰</button>
-    </div>
-    <nav id="nav">
-        <ul>
-            <!-- <li>
-                <div class="nav-item" id="navitem1">
-                    <a href="#about">About</a>
-                </div>
-            </li> -->
-            <li>
-                <div class="nav-item">
-                    <a href="#contactb">Contact</a>
-                </div>
-            </li>
-            <li>
-                <div class="nav-item">
-                    <a href="#expb">Experience</a>
-                </div>
-            </li>
-            <li>
-                <div class="nav-item">
-                    <a href="#skillsb">Skills</a>
-                </div>
-            </li>
-            <li>
-                <div class="nav-item">
-                    <a href="#projb">Projects</a>
-                </div>
-            </li>
-            <li>
-                <div class="nav-item">
-                    <a href="#certb">Certifications</a>
-                </div>
-            </li>
-            <li>
-                <div class="nav-item">
-                    <a href="#achb">Achievements</a>
-                </div>
-            </li>
-            <!-- <li>
-                <div class="nav-item">
-                    
-                </div>
-            </li> -->
-        </ul>
-    </nav>
-    <div id="navbar">
-        <!-- <div class="navitem">
-            <div id="title">Sania Sinha</div>
-        </div> -->
-        <!-- <div class="navitem">
-            <a href="#about">About</a>
-        </div> -->
-        <div class="navitem">
-            <a href="#contactb">Contact</a>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header wrap">
+      <a class="wordmark" href="#home" aria-label="Sania Sinha home"
+        >sanya<span>_</span></a
+      >
+      <button
+        class="menu-toggle"
+        aria-expanded="false"
+        aria-controls="navigation"
+      >
+        Menu <span aria-hidden="true">＋</span>
+      </button>
+      <nav id="navigation" aria-label="Main navigation">
+        <a href="#research">Research</a><a href="#work">Projects</a
+        ><a href="#about">About</a><a href="#experience">Experience</a>
+        <a class="nav-contact" href="#contact"
+          >Contact <span aria-hidden="true">↗</span></a
+        >
+      </nav>
+    </header>
+    <main id="main">
+      <section class="hero wrap" id="home" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">
+            MATHEMATICS × ENGINEERING × ARTIFICIAL INTELLIGENCE
+          </p>
+          <h1 id="hero-title">Sania Sinha<span class="accent">.</span></h1>
+          <p class="hero-description">
+            Hi, I often go by Sanya! I love math, code, and art. I am currently a PhD
+            student at MILA and Université de Montréal, working on multimodal AI research.
+            My previous affiliations include University of Oxford and Michigan State University.
+          </p>
+          <div class="hero-actions">
+            <a class="button" href="#work"
+              >View projects <span aria-hidden="true">↘</span></a
+            >
+            <!-- <a
+              class="text-link"
+              href="https://github.com/Sanya1001"
+              target="_blank"
+              rel="noopener noreferrer"
+              >GitHub <span aria-hidden="true">↗</span></a
+            > -->
+            <a
+              class="text-link"
+              href="https://www.linkedin.com/in/sania-sinha-20aa07216/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >LinkedIn <span aria-hidden="true">↗</span></a
+            >
+            <a
+              class="text-link"
+              href="https://scholar.google.com/citations?user=9skrx4cAAAAJ&amp;hl=en"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Google Scholar <span aria-hidden="true">↗</span></a
+            >
+          </div>
         </div>
-        <div class="navitem">
-            <a href="#expb">Experience</a>
+        <div class="hero-portrait">
+          <img
+            src="media/PHOTO-2026-06-21-04-10-34 2.jpg"
+            alt="Sania Sinha"
+            width="360"
+            height="400"
+            fetchpriority="high"
+          />
         </div>
-        <div class="navitem">
-            <a href="#skillsb">Skills</a>
+      </section>
+      <section
+        class="section wrap research-section"
+        id="research"
+        aria-labelledby="research-title"
+      >
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">01 / RESEARCH</p>
+            <h2 id="research-title">Recent Research</h2>
+          </div>
+          <a
+            class="text-link"
+            href="https://scholar.google.com/citations?user=9skrx4cAAAAJ&amp;hl=en"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Google Scholar <span aria-hidden="true">↗</span></a
+          >
         </div>
-        <div class="navitem">
-            <a href="#projb">Projects</a>
+        <div class="publication-list">
+          <article class="publication">
+            <span class="publication-year">2026</span>
+            <div class="publication-content">
+              <p class="publication-venue">
+                Neurosymbolic Artificial Intelligence
+              </p>
+              <h3>
+                <a
+                  href="https://doi.org/10.1177/29498732261443183"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Neuro-Symbolic Frameworks: Conceptual Characterization and
+                  Empirical Comparative Analysis</a
+                >
+              </h3>
+              <p class="publication-authors">
+                <strong>Sania Sinha</strong>, Tanawan Premsri, Danial Kamali,
+                Parisa Kordjamshidi
+              </p>
+              <p class="publication-summary">
+                A comparative study of DeepProbLog, Scallop, and DomiKnowS,
+                examining their representations, neural integration, and
+                problem-solving capabilities.
+              </p>
+              <div class="publication-links">
+                <a
+                  class="text-link"
+                  href="https://doi.org/10.1177/29498732261443183"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Paper <span aria-hidden="true">↗</span></a
+                ><a
+                  class="text-link"
+                  href="https://arxiv.org/abs/2509.07122"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >arXiv <span aria-hidden="true">↗</span></a
+                >
+              </div>
+            </div>
+          </article>
+          <article class="publication">
+            <span class="publication-year">2025</span>
+            <div class="publication-content">
+              <p class="publication-venue">
+                Frontiers in Artificial Intelligence
+              </p>
+              <h3>
+                <a
+                  href="https://doi.org/10.3389/frai.2025.1577027"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Fluorescent marker prediction for non-invasive optical
+                  imaging in bovine satellite cells using deep learning</a
+                >
+              </h3>
+              <p class="publication-authors">
+                <strong>Sania Sinha</strong>, Aarham Wasit, Won Seob Kim,
+                Jongkyoo Kim, Jiyoon Yi
+              </p>
+              <p class="publication-summary">
+                Deep learning for predicting fluorescent markers from cell
+                imagery, supporting non-invasive analysis of bovine satellite
+                cells.
+              </p>
+              <div class="publication-links">
+                <a
+                  class="text-link"
+                  href="https://doi.org/10.3389/frai.2025.1577027"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Paper <span aria-hidden="true">↗</span></a
+                ><a
+                  class="text-link"
+                  href="https://arxiv.org/abs/2410.13685"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >arXiv <span aria-hidden="true">↗</span></a
+                >
+              </div>
+            </div>
+          </article>
+          <article class="publication">
+            <span class="publication-year">2025</span>
+            <div class="publication-content">
+              <p class="publication-venue">
+                NeSy 2025 · Proceedings of Machine Learning Research
+              </p>
+              <h3>
+                <a
+                  href="https://proceedings.mlr.press/v284/sinha25a.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Toward a Clearer Characterization of Neuro-Symbolic
+                  Frameworks: A Brief Comparative Analysis</a
+                >
+              </h3>
+              <p class="publication-authors">
+                <strong>Sania Sinha</strong>, Tanawan Premsri, Parisa
+                Kordjamshidi
+              </p>
+              <p class="publication-summary">
+                A characterization of neurosymbolic frameworks and the
+                challenges of combining neural learning with symbolic reasoning.
+              </p>
+              <div class="publication-links">
+                <a
+                  class="text-link"
+                  href="https://proceedings.mlr.press/v284/sinha25a.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Paper <span aria-hidden="true">↗</span></a
+                >
+              </div>
+            </div>
+          </article>
+          <article class="publication">
+            <span class="publication-year">2024</span>
+            <div class="publication-content">
+              <p class="publication-venue">
+                Transactions on Machine Learning Research
+              </p>
+              <h3>
+                <a
+                  href="https://openreview.net/forum?id=BXDxwItNqQ"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >A Survey on Compositional Learning of AI Models: Theoretical
+                  and Experimental Practices</a
+                >
+              </h3>
+              <p class="publication-authors">
+                <strong>Sania Sinha</strong>, Tanawan Premsri, Parisa
+                Kordjamshidi
+              </p>
+              <p class="publication-summary">
+                A survey connecting cognitive accounts of compositionality with
+                definitions, benchmarks, and methods for evaluating language and
+                vision models.
+              </p>
+              <div class="publication-links">
+                <a
+                  class="text-link"
+                  href="https://openreview.net/forum?id=BXDxwItNqQ"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Paper <span aria-hidden="true">↗</span></a
+                ><a
+                  class="text-link"
+                  href="https://arxiv.org/abs/2406.08787"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >arXiv <span aria-hidden="true">↗</span></a
+                >
+              </div>
+            </div>
+          </article>
         </div>
-        <div class="navitem">
-            <a href="#certb">Certifications</a>
+      </section>
+      <section class="section wrap" id="work" aria-labelledby="work-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">02 / SELECTED WORK</p>
+            <h2 id="work-title">Featured projects</h2>
+          </div>
+          <p>Selected work in AI, research, and web development.</p>
         </div>
-        <div class="navitem">
-            <a href="#achb">Achievements</a>
+        <div class="filters" role="group" aria-label="Filter projects">
+          <button aria-pressed="true" data-filter="all">
+            All work <span>06</span></button
+          ><button aria-pressed="false" data-filter="ai">AI & ML</button
+          ><button aria-pressed="false" data-filter="web">Web & tools</button
+          ><button aria-pressed="false" data-filter="research">Research</button>
         </div>
-        <!-- <div class="nav-item"></div>
-        <div class="nav-item"></div> -->
-    </div>
-    <div id="main">
-        <div id="landing">
-            <ul>
-                <li id="name">Sania Sinha</li>
-                <li>
-                    <img src="./media/WhatsApp Image 2022-03-20 at 14.10.45.jpeg" alt="Profile Picture" srcset="" id="image">
-                </li>
-                <li>BS, Computer Science & Math with minor in Data Science & & CMSE & Cognitive Science [GPA: 4.0]</li>
-                <li>Michigan State University, Honors College <br> Class of 2025</li>
-                <li>East Lansing, Michigan, USA <br>Hometown: Kolkata, West Bengal, India</li>
-                <li>Interests: Machine Learning & Data Analysis</li>
-                <!-- <li></li>
-                <li></li> -->
-            </ul>
+        <p
+          class="sr-only"
+          id="filter-status"
+          role="status"
+          aria-live="polite"
+        ></p>
+        <div class="project-grid">
+          <article class="project" data-category="ai web">
+            <a
+              href="https://github.com/MAlshaik/gitlinked"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="project-link"
+              ><div class="project-art gitlinked">
+                <span class="art-caption"
+                  >FIND YOUR PEOPLE. BUILD SOMETHING.</span
+                >
+                <div class="git-logo">git<span>linked</span><sup>↗</sup></div>
+                <div class="connection">
+                  <span>&lt;/&gt;</span><i></i><span>✳</span><i></i
+                  ><span>{ }</span>
+                </div>
+                <span class="art-badge">NASA SPACE APPS · GLOBAL NOMINEE</span>
+              </div>
+              <div class="project-meta">
+                <span>01 / DEVELOPER CONNECTIONS</span
+                ><span aria-hidden="true">↗</span>
+              </div>
+              <h3>GitLinked</h3>
+              <p>
+                A social platform connecting developers through shared skills,
+                interests, and the possibilities of AI.
+              </p>
+              <div class="tags">
+                <span>Next.js</span><span>Python</span><span>GPT API</span>
+              </div></a
+            >
+          </article>
+          <article class="project" data-category="ai research">
+            <a
+              href="https://sanya1001.github.io/handle-with-care/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="project-link"
+              ><div class="project-art care">
+                <span class="art-caption">LANGUAGE BECOMES FORM</span>
+                <div class="sculpture">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </div>
+                <span class="care-title">handle<br />with <em>care.</em></span
+                ><span class="art-badge"
+                  >MSU UURAF · DIGITAL HUMANITIES WINNER</span
+                >
+              </div>
+              <div class="project-meta">
+                <span>02 / COMPUTATIONAL CREATIVITY</span
+                ><span aria-hidden="true">↗</span>
+              </div>
+              <h3>Handle with Care</h3>
+              <p>
+                Turning text into objects: an exploration of natural language,
+                visualization, and digital humanities.
+              </p>
+              <div class="tags">
+                <span>NLP</span><span>Python</span><span>Research</span>
+              </div></a
+            >
+          </article>
+          <article class="project" data-category="ai">
+            <a
+              href="https://github.com/Sanya1001/shellhacks23"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="project-link"
+              ><div class="project-art incluscript">
+                <span class="art-caption">MORE VOICES. FEWER BARRIERS.</span>
+                <div class="wave" aria-hidden="true">
+                  <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i
+                  ><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+                </div>
+                <div class="incluscript-title">IncluScript<span>.AI</span></div>
+                <span class="art-badge">SHELLHACKS · HONORABLE MENTION</span>
+              </div>
+              <div class="project-meta">
+                <span>03 / ACCESSIBLE TECHNOLOGY</span
+                ><span aria-hidden="true">↗</span>
+              </div>
+              <h3>IncluScript.AI</h3>
+              <p>
+                Exploring more accessible communication with speech recognition,
+                speaker identification, and language models.
+              </p>
+              <div class="tags">
+                <span>Speech-to-text</span><span>pyannote</span
+                ><span>GPT API</span>
+              </div></a
+            >
+          </article>
+          <article class="project" data-category="web">
+            <a
+              href="https://sanya1001.github.io/webdevkids/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="project-link"
+              ><div class="project-art webkids">
+                <span class="art-caption">BIG IDEAS START SMALL</span>
+                <div class="code-window">
+                  <div><i></i><i></i><i></i><span>hello-world.html</span></div>
+                  <code
+                    >&lt;<b>h1</b>&gt;<br />&nbsp; I made this! <span>✦</span
+                    ><br />&lt;/<b>h1</b>&gt;</code
+                  >
+                </div>
+                <span class="art-badge"
+                  >A LITTLE CODE. A LOT OF POSSIBILITY.</span
+                >
+              </div>
+              <div class="project-meta">
+                <span>04 / LEARNING THROUGH BUILDING</span
+                ><span aria-hidden="true">↗</span>
+              </div>
+              <h3>WebDevKids</h3>
+              <p>
+                A friendly introduction to web development that helps kids take
+                their first steps from curious to creator.
+              </p>
+              <div class="tags">
+                <span>HTML & CSS</span><span>JavaScript</span
+                ><span>Education</span>
+              </div></a
+            >
+          </article>
+          <article class="project compact-project" data-category="ai">
+            <a
+              href="https://github.com/AdityaMitra5102/BrailleCam"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="project-link"
+              ><div class="project-meta">
+                <span>05 / ASSISTIVE TECHNOLOGY</span
+                ><span aria-hidden="true">↗</span>
+              </div>
+              <h3>Cam Braille</h3>
+              <p>
+                An accessibility-focused team project. Sixth place at Hack to
+                Enable 2021.
+              </p>
+              <div class="tags"><span>Python</span><span>Azure</span></div></a
+            >
+          </article>
+          <article class="project compact-project" data-category="ai web">
+            <a
+              href="https://github.com/MSU-AI/Attendance-Project"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="project-link"
+              ><div class="project-meta">
+                <span>06 / COMPUTER VISION</span
+                ><span aria-hidden="true">↗</span>
+              </div>
+              <h3>Smart Attendance</h3>
+              <p>
+                Automating attendance through gesture recognition, facial
+                recognition, and an integrated database.
+              </p>
+              <div class="tags">
+                <span>Machine learning</span><span>Django</span
+                ><span>JavaScript</span>
+              </div></a
+            >
+          </article>
         </div>
-    </div>
-    <br id="expb">
-    <br>
-    <div id="exp">
-        <div class="section-header">Experience</div>
-        <ul>
-            <li><span style="font-weight: bold;">Software Engineer Intern</span>, Rocket Mortgage <br> <br>
-                <ul id="work-desc">
-                    <li>Product Engineer, Rocket Experience Technology</li>
-                    <li>Worked on rapid prototyping in Innovation workstream to bring AI solutions to improve client experience</li>
-                    <li>Work with multi-agent frameworks and LLMs</li>
-                </ul> <br>
-                May 2024- present</li>
-            <li><span style="font-weight: bold;">Research Assistant</span> under Dr. Parisa Kordjamshidi <br> Heterogenous Learning and Reasoning Lab, MSU <br> <br>
-                <ul id="work-desc">
-                    <li>Focus on learning Natural Language Processing and Machine Learning</li>
-                    <li> Built conference website & worked on NLP data annotations with spatial role labeling</li>
-                    <li>Guest student in Natural Language Processing graduate class (CSE 842)</li>
-                    <li>Worked on art based computational social science project for generating 3D objects (research paper submitted to NLPCSS under EMNLP)</li>
-                    <li>Implementing rule based reasoning and storing information from parses</li>
-                    <li>Leading survey paper on Compositional Learning</li>
-                </ul> <br>
-                September 2021- present</li>
-            <li><span style="font-weight: bold;">President</span>, AI Club at MSU (previously Vice President, Secretary) <br> <br>
-                <ul id="work-desc2">
-                    <li>Organize and host club meetings, ensure smooth progress of club</li>
-                    <li>Worked on Smart Attendance Project as the Frontend Team Lead</li>
-                </ul> <br>
-                October 2021- present</li>
-
-            <li><span style="font-weight: bold;">Research Assistant</span> under Dr. Jiyoon Yi <br> Food AI and Engineering Lab, MSU <br> <br>
-                <ul id="work-desc"> 
-                    <li>Working on image prediction of microscopic fluorescent image for artificially cultured meat</li>
-                    <li>Working on article on image denoising techniques for the above</li>
-                </ul> <br>
-                August 2023- present</li>
-            </li>
-            <li><span style="font-weight: bold;">Admin & Ambassador</span>, K12 CS Outreach & Women in Engineering, MSU <br> <br>
-                Mentor K-12 students in concepts of Computer Science to foster an interest in STEM || worked 
-                for Technovation and Girls Who Code || Current curriculum admin <br> <br>
-            September 2022- present</li>
-            <li><span style="font-weight: bold;">Research Assistant</span> under Dr. Chi Chang <br>
-                Office of Medical Education Research and Development, MSU <br> <br>
-                Working on video/text annotation and machine learning integration related to speech recognition <br> <br>
-                February 2023- present</li>
-            <li><span style="font-weight: bold;">Research Intern</span>, Indian Institute of Technology, Kharagpur <br> <br>
-                Analysis of sensor data during RSW and developing ML model to minimize defects (with additional aim of writing a review article)<br><br>
-                January- December 2022</li>
-            <li><span style="font-weight: bold;">Calculus Tutor</span>, CoRe, College of Engineering, MSU <br> <br>
-                    Tutor first year engineering students in Calculus and prepare them for exams by developing
-                    comprehensive reviews<br> <br>
-                September 2022- April 2023</li>
-            <li><span style="font-weight: bold;">Events Coordinator</span>, Bengali Students' Association, MSU <br> <br>
-                Spreading awareness about and celebrating the Bengali culture<br> <br>
-                September- December 2022</li>
-            <li>Virtual Tutor (Volunteering), Waverly Highschool <br> <br>
-                Helped highschool students with homework including reading and math <br> <br>
-                October 2021- December 2021</li>
-            <li>Head Girl, Salt Lake School <br> <br>
-                Organized and hosted school events || Led student government <br> <br>
-                November 2019- December 2020</li>
-        </ul>
-    </div>
-    <br id="skillsb">
-    <br>
-    <div id="skills">
-        <div class="section-header">Skills</div>
-        <ul>
-            <li>Java: Proficient <br>
-                Experience: 7 years</li>
-            <li>Python: Proficient <br>
-                Experience: 4 year</li>
-            <li>JavaScript: Proficient <br>
-                Experience: 4 year </li>
-            <li>HTML: Proficient <br>
-                Experience: 8 years</li>
-            <li>CSS and SASS: Proficient <br>
-                Experience: 4 year</li>
-            <li>Git and GitHub: Proficient <br>
-                Experience: 4 year</li>
-            <li>C++ and R: Proficient <br>
-                Experience: 2 year</li>
-            <li>
-                NextJS: Proficient <br>
-                Experience: 1 year
-            </li>
-            <li>
-                AWS (Bedrock, Lambda, CloudWatch, S3): Proficient <br>
-                Experience: &lt;6 months
-            </li>
-            <li>C and Assembly: Proficient <br>
-                Experience: &lt;6 months</li>
-            <li>Google Apps Scripts: Proficient <br>
-                Experience: &lt;6 months</li>
-            <li>Dart and Flutter: Intermediate Proficiency <br>
-                Experience: &lt;6 months</li>
-            <li>Arduino: Intermediate Proficiency <br>
-                Experience: &lt;1 year</li>
-            <li>Numpy, Matplotlib, Seaborn, Pandas and other data analysis tools</li>
-            <li>SVM, perceptron, regression, deep neural nets, and some other machine learning tools</li>
-            <li>Django</li>
-            <li>MIT AI2: Proficient <br>
-                Experience: &lt;6 months</li>
-            <li>MS Office, Project presentation, Content writing, Leadership, Public speaking</li>
-            <li>English, Bengali, Hindi: Native Speaker proficiency</li>
-        </ul>
-    </div>
-    <br id="projb">
-    <br>
-    <div id="proj">
-        <div class="section-header">Projects</div>
-        <ul>
-            <a href="https://github.com/AdityaMitra5102/BrailleCam">
-                <li>
-                    Cam Braille: 6th position, Hack to Enable, 2021, Hackerearth (Team Project)
-                    <br>Skills: Python, Azure, Project Presentation, Content Writing
-                </li>
-            </a>
-            <a href="https://sanya1001.github.io/webdevkids/">
-                <li>
-                    WebDevKids: Introduction to Web Development for kids
-                    <br>Skills: HTML, CSS, JS, Content Writing
-                </li>
-            </a>
-            <a href="https://github.com/MAlshaik/gitlinked">
-                <li>
-                    GitLinked: Global Nominee, NASA SpaceApps 2023 (Team Project)
-                    <br>A social media platform for developers
-                    <br>Skills: Python, NextJS, CSS, GPT API, sklearn, Project Presentation, Content Writing
-                </li>
-            </a>
-            <a href="https://github.com/Sanya1001/shellhacks23">
-                <li>
-                    IncluScript.AI: Honorable Mention, ShellHacks 2023 (Team Project)
-                    <br>Skills: Python, Google Speech2Text API, pyannote, GPT API, Project Presentation, Content Writing
-                </li>
-            </a>
-            <a href="https://github.com/Sanya1001/halloween-mask-arduino">
-                <li>
-                    Halloween LED Mask: Patterned color changing eye-piece (Team project)
-                    <br>Skills: Arduino, NeoPixel Library, Adafruit Gemma, Poster Presentation, Content Writing
-                </li>
-            </a>
-            <a href="https://github.com/Sanya1001/netflix-project">
-                <li>
-                    Next on Netflix: A Netflix recommendation system (Team project)
-                    <br>Skills: Python, Machine Learning, Data Analysis, Project Presentation
-                </li>
-            </a>
-             <a href="https://sanya1001.github.io/handle-with-care/">
-                <li>
-                    Handle with Care: Winner, University Undergraduate Research and Arts Symposium 2023, MSU (Digital Humanities)
-                    <br> A text to object visualization project (Solo Developer, Collaborative project: idea and research paper) <br>
-                    <br>Skills: Python, Natural Language Processing, Data Analysis & Visualization, Project Presentation, Academic Content Writing, Web design
-                </li>
-            </a>
-            <a href="https://github.com/MSU-AI/Attendance-Project">
-                <li>
-                    Smart Attendance Project: An automated attendance system with gesture recognition, facial recognition and database integration (Team project)
-                    <br>Skills: Python, Machine Learning, JavaScript, Django
-                </li>
-            </a>
-            <a href="https://github.com/Sanya1001/python-projects">
-                <li>
-                    Python Projects: A collection of short python Projects
-                    <br>Skills: Python
-                </li>
-            </a>
-            <a href="https://github.com/Sanya1001/yearbook">
-                <li>
-                    YearBook: Online Yearbook
-                    <br>Skills: Python, Django, HTML
-                </li>
-            </a>
-            <a href="https://clear-workshop.github.io/">
-                <li>
-                    CLeaR 2022: Conference Website 
-                    <br>Skills: HTML, CSS, JavaScript
-                </li>
-            </a>
-            <a href="https://sanya1001.github.io/rbuild/">
-                <li>
-                    Resume Builder: Resume Generator and Job Advisor website (work in progress)
-                    <br>Skills: HTML, CSS, JavaScript
-                </li>
-            </a>
-        </ul>
-    </div>
-    <br id="certb">
-    <br>
-    <div id="cert">
-        <div class="section-header">Certifications</div>
-        <ul>
-            <a href="https://www.freecodecamp.org/certification/sanya1001/responsive-web-design">
-                <li>
-                    Responsive Web Design certification from freeCodeCamp
-                </li>
-            </a>
-            <a href="https://www.freecodecamp.org/certification/sanya1001/data-analysis-with-python-v7">
-                <li>
-                    Data Analysis with Python from freeCodeCamp
-                </li>
-            </a>
-            <a href="https://www.freecodecamp.org/certification/sanya1001/javascript-algorithms-and-data-structures">
-                <li>
-                    JavaScript Algorithms and Data Structures certification from freeCodeCamp
-                </li>
-            </a>
-            <a href="https://www.freecodecamp.org/certification/sanya1001/scientific-computing-with-python-v7"> 
-                <li>
-                Scientific Computing with Python from freeCodeCamp 
-                </li>
-            </a>
-            <a href="Deloitte STEM Connect.pdf" target="_blank">
-                <li>
-                    Deloitte STEM Connect Virtual Experience
-                </li>
-            </a>
-            
-        </ul>
-    </div>
-    <br id="achb">
-    <br>
-    <div id="ach">
-        <div class="section-header">Achievements</div>
-        <ul>
-            <li>Winner, FinTech Track, Spartahack 2024</li>
-            <li>Dean's List Fall 2021, Spring 2022, Fall 2022, Spring 2023, Fall 2023, & Spring 2024</li>
-            <li>Second place, AI Ideation Challenge, Future Tech Forum 2023 Qatar</li>
-            <li>Dean's Showcase of Stars (MSU) 2022 & 2023</li>
-            <li>First Place, University Undergraduate Research and Arts Symposium 2023, MSU (Digital Humanities)</li>
-            <li>Global Nominee, NASA SpaceApps 2023 [Top 32, Open Science Marketplace Challenge]</li>
-            <li>&lt;ION&gt;athon 1.0 (2022), Top 10 </ION></li>
-            <li>Hack to enable, 2021, Hackerearth- 6th</li>
-            <li>Honorable Mention, ShellHacks 2023</li>
-            <li>Top 5 team selected for Poster Presentation (Halloween Mask Project) in EGR 100, 2021</li>
-            <li>ISC 2021 (School passing exam)- 99.25% (All India Rank 3)</li>
-            <li>Regional Mathematical Olympiad 2018- Qualifier & Indian National Mathematical Olympiad 2019- Participant</li>
-            <li>Times Scholar 2018 and 2020, Times Group</li>
-        </ul>
-    </div>
-    <br id="contactb">
-    <br>
-    <div id="contact">
-        <div class="section-header">Contact</div>
-        <ul>
-            <a href="mailto:sinhasa3@msu.edu">
-                <li>
-                    sinhasa3@msu.edu
-                </li>
-            </a>
-            <a href="https://github.com/Sanya1001">
-                <li>
-                    Github
-                </li>
-            </a>
-            <a href="https://www.linkedin.com/in/sania-sinha-20aa07216/">
-                <li>
-                    LinkedIn
-                </li>
-            </a>
-            <a href="./media/Resume_2023_Dec_Research.pdf" target="_blank">
-                <li>
-                    Resume
-                </li>
-            </a>
-        </ul>
-    </div>
-</body>
+        <a
+          class="text-link all-projects"
+          href="https://github.com/Sanya1001?tab=repositories"
+          target="_blank"
+          rel="noopener noreferrer"
+          >More experiments on GitHub <span aria-hidden="true">↗</span></a
+        >
+      </section>
+      <section class="about-section" id="about" aria-labelledby="about-title">
+        <div class="wrap about-grid">
+          <div>
+            <p class="eyebrow">03 / BACKGROUND</p>
+            <h2 id="about-title">About me</h2>
+          </div>
+          <div class="about-copy">
+            <p>
+              My background brings together computer science and mathematics at
+              Michigan State University’s Honors College, with interests
+              spanning machine learning, natural language processing, and data
+              analysis.
+            </p>
+            <p>
+              Alongside research and software projects, I’ve been involved in CS
+              outreach, mentoring, and student leadership through MSU’s AI Club.
+            </p>
+            <div class="toolkit">
+              <p class="eyebrow">TECHNICAL SKILLS</p>
+              <div class="tags">
+                <span>Python</span><span>JavaScript</span><span>Java</span
+                ><span>C++</span><span>Next.js</span><span>Django</span
+                ><span>AWS</span><span>Git</span><span>Pandas</span
+                ><span>NumPy</span>
+              </div>
+            </div>
+            <a
+              class="text-link"
+              href="media/Resume_2023_Dec_Research.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              >View résumé <span class="resume-date">(December 2023)</span>
+              <span aria-hidden="true">↗</span></a
+            >
+          </div>
+        </div>
+      </section>
+      <section
+        class="section wrap"
+        id="experience"
+        aria-labelledby="experience-title"
+      >
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">04 / EXPERIENCE</p>
+            <h2 id="experience-title">Experience</h2>
+          </div>
+          <p>Engineering, research, and leadership roles.</p>
+        </div>
+        <div class="experience-list">
+          <article>
+            <span class="experience-number">01</span>
+            <div>
+              <h3>Rocket Mortgage</h3>
+              <p>Software Engineer Intern</p>
+            </div>
+            <p>
+              Rapid prototyping of AI solutions for client experience, working
+              with multi-agent frameworks and large language models.
+            </p>
+            <span class="experience-type">ENGINEERING</span>
+          </article>
+          <article>
+            <span class="experience-number">02</span>
+            <div>
+              <h3>HLR Lab · Michigan State</h3>
+              <p>Research Assistant · Dr. Parisa Kordjamshidi</p>
+            </div>
+            <p>
+              Natural language processing, compositional learning, and
+              rule-based reasoning, alongside computational social science
+              research.
+            </p>
+            <span class="experience-type">AI RESEARCH</span>
+          </article>
+          <article>
+            <span class="experience-number">03</span>
+            <div>
+              <h3>Food AI & Engineering Lab</h3>
+              <p>Research Assistant · Dr. Jiyoon Yi</p>
+            </div>
+            <p>
+              Image prediction and denoising for microscopic fluorescent imagery
+              in cultivated meat research.
+            </p>
+            <span class="experience-type">COMPUTER VISION</span>
+          </article>
+          <article>
+            <span class="experience-number">04</span>
+            <div>
+              <h3>AI Club · Michigan State</h3>
+              <p>President · Previously VP & Secretary</p>
+            </div>
+            <p>
+              Bringing students together to explore AI, organize projects, and
+              learn by building. Frontend team lead for Smart Attendance.
+            </p>
+            <span class="experience-type">COMMUNITY</span>
+          </article>
+        </div>
+        <details class="more-experience">
+          <summary>
+            More experience & recognition <span aria-hidden="true">＋</span>
+          </summary>
+          <div class="extra-grid">
+            <div>
+              <h3>Additional experience</h3>
+              <p>
+                <strong>IIT Kharagpur · Research Intern</strong><br />Sensor
+                data analysis and machine learning for resistance spot welding,
+                2022.
+              </p>
+              <p>
+                <strong>MSU · Medical Education Research</strong><br />Video and
+                text annotation, speech recognition, and machine learning
+                integration.
+              </p>
+              <p>
+                <strong>MSU · K–12 CS Outreach & Women in Engineering</strong
+                ><br />CS mentoring and curriculum work, including Technovation
+                and Girls Who Code.
+              </p>
+            </div>
+            <div>
+              <h3>Awards & recognition</h3>
+              <p>FinTech Track Winner · Spartahack 2024</p>
+              <p>
+                Second Place · AI Ideation Challenge, Future Tech Forum 2023
+              </p>
+              <p>Global Nominee · NASA Space Apps 2023</p>
+              <p>Digital Humanities Winner · MSU UURAF 2023</p>
+              <p>Dean’s Showcase of Stars · MSU 2022 & 2023</p>
+            </div>
+          </div>
+        </details>
+      </section>
+      <section
+        class="contact-section wrap"
+        id="contact"
+        aria-labelledby="contact-title"
+      >
+        <p class="eyebrow"><span class="status-dot"></span> 05 / CONTACT</p>
+        <h2 id="contact-title">Contact</h2>
+        <div class="contact-bottom">
+          <p>
+            For professional inquiries and collaborations,<br />please get in
+            touch by email. I check LinkedIn more sparsely.
+          </p>
+          <div>
+            <a class="email-link" href="mailto:sania.sinha@mila.quebec"
+              >sania dot sinha at mila dot quebec
+              <span aria-hidden="true">↗</span></a
+            ><button class="copy-email" type="button">Copy email</button
+            ><span id="copy-status" role="status" class="copy-status"></span>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="wrap">
+      <span>© <span id="year">2026</span> Sania Sinha</span
+      ><span>Mathematics · Software · AI</span>
+      <div>
+        <a
+          href="https://scholar.google.com/citations?user=9skrx4cAAAAJ&amp;hl=en"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Scholar ↗</a
+        ><a
+          href="https://github.com/Sanya1001"
+          target="_blank"
+          rel="noopener noreferrer"
+          >GitHub ↗</a
+        ><a
+          href="https://www.linkedin.com/in/sania-sinha-20aa07216/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >LinkedIn ↗</a
+        ><a href="#home">Back to top ↑</a>
+      </div>
+    </footer>
+  </body>
 </html>
