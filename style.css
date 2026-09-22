@@ -1281,3 +1281,32 @@ html:not(.js) .copy-email {
     letter-spacing: -0.3px;
   }
 }
+
+/* Education within About Me. */
+.education {
+  border-top: 1px solid var(--line);
+  margin-top: 28px;
+  padding-top: 22px;
+}
+.education .eyebrow {
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.degree-list { margin: 0; }
+.degree-list > div + div { margin-top: 22px; }
+.degree-list dt {
+  color: var(--text);
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+.degree-list dd {
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.7;
+  margin: 0;
+}
+.degree-list .degree-minors {
+  font-size: 12px;
+  margin-top: 5px;
+}
